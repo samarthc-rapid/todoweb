@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Login</title>
+    </head>
+    <body>
+        <form method="post">
+            <input type="radio" id ="View list" name="response" value="1" checked = "checked">
+            <label for="View list">View list</label><br>
+            <input type="radio" id = "Create new list" name="response" value="2">
+            <label for="Create new list">Create new list</label><br>
+            <input type="radio" id ="Update list" name="response" value="3">
+            <label for="Update list">Update list</label><br>
+            <input type="radio" id = "Delete list" name="response" value="4">
+            <label for="Delete list">Delete list</label><br>
+            <input type="radio" id = "Logout" name="response" value="5">
+            <label for="Logout">Logout</label><br>
+
+            <label>List name
+                <input 
+                    type="text" 
+                    placeholder="Enter list name"
+                    name="list_name"
+                >
+            </label><br>
+
+            <input type="radio" id ="Add new task" name="response_2" value="1" checked = "checked">
+            <label for="Add new task">Add new task</label><br>
+            <input type="radio" id = "Delete task" name="response_2" value="2">
+            <label for="Delete task">Delete task</label><br>
+            <input type="radio" id = "Mark task as done" name="response_2" value="3">
+            <label for="Mark task as done">Mark task as done</label><br>
+
+            <label>Task name
+                <input 
+                    type="text" 
+                    placeholder="Enter task name"
+                    value = "0"
+                    name="task_name"
+                >
+            </label><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
